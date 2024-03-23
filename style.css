@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(204, 43%, 93%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 510px;
+    height: 400px;
+}
+
+.card .top {
+    padding: 1.1em 1.7em;
+    background: #fff;
+    font-family: "Karla";
+}
+
+.top .top-h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 1em 0;
+
+}
+
+.top .top-h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: .8em;
+}
+
+.top .top-p {
+    color: hsl(218, 22%, 67%);
+    font-size: .8em;
+    font-weight: 400;
+    line-height: 1.4em;
+    padding-bottom: .8em;
+}
+
+.card .bot {
+    display: flex;
+    width: 100%;
+}
+
+.bot .bottom {
+    padding: 1.7em 1.6em;
+    font-family: "Karla";
+}
+
+
+.bot .bottom-left {
+    background: hsl(179, 62%, 43%);
+    width: 50%;
+    font-family: "Karla";
+}
+
+.bottom-left .left-h {
+    color: hsl(204, 43%, 93%);
+    font-size: 1em;
+    padding-bottom: 1.1em;
+}
+
+.bottom-left .left-price {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    gap: 14px;
+}
+
+.left-price span {
+    font-size: .4em;
+    font-weight: 400;
+    color: hsla(204, 21%, 91%, 0.991);
+    margin-top: .9em;
+}
+
+.bottom-left .left-p {
+    color: hsl(204, 43%, 93%);
+    font-size: .8em;   
+    font-weight: 400;
+    padding: 1em 0;
+}
+
+.bottom-left button {
+    outline: none;
+    border: none;
+    background: hsl(71, 73%, 54%);
+    padding: .5em;
+    width: 100%;
+    margin-top: 1em;
+    color: hsl(204, 43%, 93%);
+    font-size: 1.1em;
+    border-radius: .3em;
+}
+
+.bot .bottom-right {
+    background: hsl(179, 53%, 54%);
+    width: 50%;
+    font-family: "Karla";
+}
+
+.bottom-right .right-h {
+    color: hsl(204, 43%, 93%);
+    font-size: 1.3em;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.bottom-right .right-p {
+    color: hsl(204, 43%, 93%);
+    font-size: .8em;
+    padding-bottom: .2em;
+    
+}
